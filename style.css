@@ -1,0 +1,121 @@
+body{
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-a{
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.input-texto{
+    margin: 30px 20px 0;
+    padding: 10px 10px;
+    width: 550px;
+    height: 350px;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    font-size: 20px;
+}
+
+.input-texto::placeholder{
+    font-size: 20px;
+    color: #0A3871;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    
+}
+
+.mensaje{
+width: 550px;
+height: 350px;
+margin: 30px 50px;
+padding: 10px 10px;
+border: none;
+border-radius: 20px;
+resize: none;
+font-size: 20px;
+}
+
+.mensaje::placeholder{
+    padding-top: 300px;
+    text-align: center;
+    color: #495057;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-image: url(Munieco.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 300px;
+
+}
+
+.advertencia::before{
+    content: "⚠";
+}
+
+.advertencia{
+    margin-left: 50px;
+    padding-top: 8px;
+    font-size: 12px;
+    font-style: normal;
+    color: #495057;
+}
+
+.encriptar{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 25%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    background: #0A3871;
+    border: none;
+    border-radius: 15px;  
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.desencriptar{
+    margin-top: 10px;
+    margin-left: auto;
+    width: 25%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px;
+    border-style: solid;
+    border-color: #0A3871;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.copiar{
+    margin-top: 10px;
+    margin-left: 250px;
+    width: 25%;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border: 1px;
+    border-style: solid;
+    border-color: #0A3871;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.rodapie{
+    margin-left: 95px;
+}
